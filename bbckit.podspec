@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '7.0'
 
-  s.source_files = 'bbckit/{Foundation,UI}/**/*.{h,m}'
+#  s.source_files = 'bbckit/{Foundation,UI}/**/*.{h,m}'
 
   s.subspec 'Foundation' do |ss|
     ss.source_files = 'bbckit/Foundation/**/*.{h,m}'

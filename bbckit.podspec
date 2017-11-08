@@ -20,13 +20,13 @@ Pod::Spec.new do |s|
   s.source_files = 'bbckit/{Foundation,UI}/**/*.{h,m}'
 
   s.subspec 'Foundation' do |ss|
-    ss.source_files = 'BBCKitRelease/Foundation/**/*.{h,m}'
-    ss.public_header_files = 'BBCKitRelease/Foundation/bbc_foundation.h'
+    ss.source_files = 'bbckit/Foundation/**/*.{h,m}'
+    ss.public_header_files = 'bbckit/Foundation/bbc_foundation.h'
   end
 
   s.subspec 'UI' do |ss|
-    ss.source_files = 'BBCKitRelease/UI/**/*.{h.m}'
-    ss.public_header_files = 'BBCKitRelease/UI/bbc_ui.h'
+    ss.source_files = 'bbckit/UI/**/*.{h.m}'
+    ss.public_header_files = 'bbckit/UI/bbc_ui.h'
     ss.ios.frameworks = 'MobileCoreServices', 'ImageIO', 'AssetsLibrary', 'Photos'
   end
 

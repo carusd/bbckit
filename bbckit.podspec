@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'bbckit'
-  s.version          = '0.1.3'
+  s.version          = '0.1.6'
   s.summary          = 'A useful kit for BBCTeam.'
 
 

@@ -27,7 +27,6 @@ Pod::Spec.new do |s|
   s.subspec 'UI' do |ss|
     ss.source_files = 'bbckit/UI/**/*.{h.m}'
     ss.public_header_files = 'bbckit/UI/bbc_ui.h'
-    ss.ios.frameworks = 'MobileCoreServices', 'ImageIO', 'AssetsLibrary', 'Photos'
   end
 
 end

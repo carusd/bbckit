@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'carusd' => 'carusd@yy.com' }
   s.source           = { :git => 'https://github.com/carusd/bbckit.git', :tag => s.version.to_s, :submodules => true }
-
+  s.requires_arc = true
   s.ios.deployment_target = '7.0'
 
 #  s.source_files = 'bbckit/{Foundation,UI}/**/*.{h,m}'
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'UI' do |ss|
     ss.source_files = 'bbckit/UI/**/*.{h.m}'
-    ss.public_header_files = 'bbckit/UI/bbc_ui.h'
+#    ss.public_header_files = 'bbckit/UI/bbc_ui.h'
   end
 
 end

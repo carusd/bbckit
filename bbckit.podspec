@@ -24,9 +24,8 @@ Pod::Spec.new do |s|
 #    ss.public_header_files = 'bbckit/Foundation/bbc_foundation.h' 
 #  end
 
-  s.subspec 'enenen' do |ss|
-    ss.source_files = 'bbckit/UI/**/*.{h.m}'
-    ss.public_header_files = 'bbckit/UI/bbc_ui.h'
-  end
-
+  s.subspec 'UI' do |ss|
+     ss.source_files = 'bbckit/UI/**/*.{h,m}'
+     ss.public_header_files = 'bbckit/UI/bbc_ui.h'
+   end
 end

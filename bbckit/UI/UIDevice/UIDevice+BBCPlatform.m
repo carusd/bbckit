@@ -6,7 +6,7 @@
 //  Copyright © 2017年 Liki. All rights reserved.
 //
 
-#import "UIDevice+bbc_platform.h"
+#import "UIDevice+BBCPlatform.h"
 #include <sys/types.h>
 #include <sys/sysctl.h>
 

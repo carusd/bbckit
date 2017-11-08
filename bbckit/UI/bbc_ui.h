@@ -8,11 +8,15 @@
 
 // UIDevice
 #import "UIDevice+BBCAdditions.h"
+#import "UIDevice+BBCPlatform.h"
+#import "UIDevice+BBCHardware.h"
 
 // UIImage
 #import "UIImage+BBCCompress.h"
 #import "UIImage+BBCDataConversation.h"
 #import "UIImage+BBCPureColor.h"
+#import "UIImage+BBCSaveToAlbum.h"
+
 
 // util
 #import "BBCBottomConstraintKeyboardAdapter.h"
@@ -29,9 +33,14 @@
 #import "UIView+BBCPresentation.h"
 #import "UIView+BBCBorder.h"
 #import "UIView+BBCSpin.h"
+#import "UIView+BBCNib.h"
 
 // UIViewController
 #import "UIViewController+BBCPagingTableView.h"
+#import "UIViewController+BBCIsSupoort3DTouch.h"
+#import "UIViewController+BBCCurrentJudgement.h"
+
+
 
 // UIApplication
 #import "UIApplication+BBCCompatibleOpenURL.h"

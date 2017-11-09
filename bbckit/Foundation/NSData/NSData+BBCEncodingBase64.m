@@ -8,7 +8,7 @@
 
 #import "NSData+BBCEncodingBase64.h"
 
-@implementation NSData (BBCUtils)
+@implementation NSData (BBCEncodingBase64)
 
 - (NSString *)bbc_toHexString {
     

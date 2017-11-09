@@ -7,14 +7,15 @@
 //
 
 #import "UIApplication+BBCCompatibleOpenURL.h"
+#import "UIApplication+BBCSharedApplication.h"
 
 @implementation UIApplication (BBCCompatibleOpenURL)
 
 - (void)bbc_openURL:(NSURL *)url options:(NSDictionary *)options completionHandler:(void(^)(BOOL))handler {
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 10) {
-        [[UIApplication sharedApplication] openURL:url options:options completionHandler:handler];
+        [[UIApplication bbc_sharedApplication] openURL:url options:options completionHandler:handler];
     } else {
-        BOOL result = [[UIApplication sharedApplication] openURL:url];
+        BOOL result = [[UIApplication bbc_sharedApplication] openURL:url];
         if (handler) {
             handler(result);
         }

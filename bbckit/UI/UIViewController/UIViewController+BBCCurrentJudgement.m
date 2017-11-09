@@ -7,6 +7,7 @@
 //
 
 #import "UIViewController+BBCCurrentJudgement.h"
+#import "UIApplication+BBCSharedApplication.h"
 
 @implementation UIViewController (BBCCurrentJudgement)
 
@@ -22,7 +23,7 @@
 
 - (BOOL)bbc_isMyNavigationControllerRootViewController {
     if (!self.navigationController) return NO;
-    return [[UIApplication sharedApplication] keyWindow].rootViewController == self.navigationController;
+    return [[UIApplication bbc_sharedApplication] keyWindow].rootViewController == self.navigationController;
 }
 
 - (BOOL)bbc_isMyNavigationControllerCurrentInTabBarController {
@@ -47,7 +48,7 @@
 }
 
 - (BOOL)bbc_isRootViewControllerPresenting {
-    return [[UIApplication sharedApplication] keyWindow].rootViewController.presentedViewController != nil;
+    return [[UIApplication bbc_sharedApplication] keyWindow].rootViewController.presentedViewController != nil;
 }
 
 - (BOOL)bbc_isPresenting {
@@ -59,7 +60,7 @@
 }
 
 - (BOOL)bbc_isRootViewController {
-    return [[UIApplication sharedApplication] keyWindow].rootViewController == self;
+    return [[UIApplication bbc_sharedApplication] keyWindow].rootViewController == self;
 }
 
 - (BOOL)bbc_isCurrentViewController {

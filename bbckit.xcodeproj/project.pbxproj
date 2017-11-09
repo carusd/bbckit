@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B1E266F1FB43F09006B376F /* UIApplication+BBCSharedApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1E266E1FB43F09006B376F /* UIApplication+BBCSharedApplication.m */; };
 		6B3A841E1FB2F7EC0039018E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3A841D1FB2F7EC0039018E /* AppDelegate.m */; };
 		6B3A84211FB2F7EC0039018E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3A84201FB2F7EC0039018E /* FirstViewController.m */; };
 		6B3A84241FB2F7ED0039018E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3A84231FB2F7ED0039018E /* SecondViewController.m */; };
@@ -65,6 +66,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B1E266D1FB43F09006B376F /* UIApplication+BBCSharedApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+BBCSharedApplication.h"; sourceTree = "<group>"; };
+		6B1E266E1FB43F09006B376F /* UIApplication+BBCSharedApplication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+BBCSharedApplication.m"; sourceTree = "<group>"; };
 		6B3A84191FB2F7EC0039018E /* bbckit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bbckit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B3A841C1FB2F7EC0039018E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6B3A841D1FB2F7EC0039018E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -314,6 +317,8 @@
 			children = (
 				6B3A846D1FB2F9470039018E /* UIApplication+BBCCompatibleOpenURL.h */,
 				6B3A846E1FB2F9470039018E /* UIApplication+BBCCompatibleOpenURL.m */,
+				6B1E266D1FB43F09006B376F /* UIApplication+BBCSharedApplication.h */,
+				6B1E266E1FB43F09006B376F /* UIApplication+BBCSharedApplication.m */,
 			);
 			path = UIApplication;
 			sourceTree = "<group>";
@@ -539,6 +544,7 @@
 				6B3A84A91FB2F9470039018E /* UIDevice+BBCPlatform.m in Sources */,
 				6B3A84B51FB2F9470039018E /* UIViewController+BBCCurrentJudgement.m in Sources */,
 				6B3A84B11FB2F9470039018E /* UIView+BBCLoadingIndicator.m in Sources */,
+				6B1E266F1FB43F09006B376F /* UIApplication+BBCSharedApplication.m in Sources */,
 				6B3A84A61FB2F9470039018E /* UIColor+BBCColorAdditions.m in Sources */,
 				6B3A841E1FB2F7EC0039018E /* AppDelegate.m in Sources */,
 				6B3A84AF1FB2F9470039018E /* UIView+BBCBorder.m in Sources */,

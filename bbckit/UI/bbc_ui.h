@@ -44,3 +44,4 @@
 
 // UIApplication
 #import "UIApplication+BBCCompatibleOpenURL.h"
+#import "UIApplication+BBCSharedApplication.h"

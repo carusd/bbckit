@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
-  s.name             = 'bbclib'
-  s.version          = '0.1.7'
+  s.name             = 'bbckit'
+  s.version          = '0.1.8'
   s.summary          = 'A useful kit for BBCTeam.'
 
 
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/carusd/bbckit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'carusd' => 'carusd@yy.com' }
+  s.author           = { 'carusd' => 'carusd@gmail.com' }
   s.source           = { :git => 'https://github.com/carusd/bbckit.git', :tag => s.version.to_s, :submodules => true }
   s.requires_arc = true
   s.ios.deployment_target = '7.0'
